@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #333;
+    color: white;
+}
+
+body {
+    width: 60em;
+    height: 100%;
+
+    padding: 1em;
+}
+
+.bar {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.5em;
+
+    background: #333;
+    border-radius: 0.4em;
+
+    border: 2px solid #3b5066;
+
+    margin-bottom: 1em;
+    color: rgb(71%, 71%, 71%);
+
+    outline: none !important;
+}
+
+.result {
+    display: inline-block;
+    height: 9.8em;
+    width: 9.8em;
+    margin: 0.3em;
+
+    background: white;
+    padding: 0.4em;
+}
+
+
+.result img {
+    width: 9em;
+    height: 9em;
+
+    object-fit: cover;
+}
+
+.output {
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Memoj",
+    "version": "1.0",
+    "description": "Browser Meme History",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "tess/tesseract.min.js",
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "MemeBin: Search",
+        "default_popup": "search.htm"      
+    },
+    "permissions": [
+        "webRequest",
+        "http://*/*",
+        "https://*/*",
+        "unlimitedStorage"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
